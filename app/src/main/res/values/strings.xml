@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Popular Movies - Stage 1</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pref_sortby_label">Sort by</string>
+    <string name="pref_sortby_key">sortby</string>
+    <string name="pref_sortby_label_popularity">Most Popular</string>
+    <string name="pref_sortby_label_rate">Top Rated</string>
+    <string name="pref_sortby_popularity">popularity</string>
+    <string name="pref_sortby_rate">rate</string>
+
+    <string name="parcelable_key">movie_object</string>
+    <string name="movie_title">Movie title</string>
+    <string name="user_rating">User rating</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="release_date">Release date</string>
+    <string name="movie_poster_content_description">movie poster</string>
+    <string name="detail_activity_title">Movie detail</string>
+
+
+</resources>
