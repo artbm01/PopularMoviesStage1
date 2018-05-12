@@ -16,5 +16,7 @@
     <string name="movie_poster_content_description">movie poster</string>
     <string name="detail_activity_title">Movie detail</string>
 
+    <string name="string_not_connected">Device is not connected to the internet</string>
+
 
 </resources>

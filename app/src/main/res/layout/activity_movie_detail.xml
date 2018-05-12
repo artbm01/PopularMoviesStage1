@@ -30,10 +30,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="40dp"
+                    android:textSize="@dimen/movie_detail_title_text_size"
                     android:textColor="@color/white"
 
-                    android:text="Test"
+                    tools:text="Test"
                     android:paddingBottom="30dp"
                     android:paddingTop="30dp"
                     android:paddingLeft="16dp"/>
@@ -64,6 +64,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
+            tools:text="Rating"
+            android:textSize="@dimen/movie_detail_rating_text_size"
             app:layout_constraintStart_toEndOf="@+id/detail_poster_iv"
             app:layout_constraintTop_toBottomOf="@+id/detail_release_tv"/>
 
@@ -73,8 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:padding="8dp"
-            android:text="Synopsis"
-            android:textSize="16dp"
+            tools:text="Synopsis"
+            android:textSize="@dimen/movie_detail_synopsis_text_size"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/detail_poster_iv"/>
 
@@ -84,8 +86,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:layout_marginTop="24dp"
-            android:textSize="20dp"
-            android:text="year"
+            android:textSize="@dimen/movie_detail_release_text_size"
+            tools:text="year"
             app:layout_constraintStart_toEndOf="@+id/detail_poster_iv"
             app:layout_constraintTop_toBottomOf="@+id/card_view" />
 

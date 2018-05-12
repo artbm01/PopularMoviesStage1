@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
     private RecyclerView mRecyclerView;
     private MovieAdapter mMovieAdapter;
     private static final int MOVIE_LOADER_ID = 0;
-    SharedPreferences sp;
+    private SharedPreferences sp;
     private String PARCELABLE_KEY;
     private ProgressBar mProgressBar;
     private NetworkReceiver receiver = new NetworkReceiver();
@@ -223,7 +223,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
                 getSupportLoaderManager().restartLoader(MOVIE_LOADER_ID,null,MainActivity.this);
             }
             else{
-                String noConnectivityString = "Device is not connected to the internet";
+                String noConnectivityString = getString(R.string.string_not_connected);
                 Toast.makeText(MainActivity.this, noConnectivityString, Toast.LENGTH_SHORT).show();
             }
         }

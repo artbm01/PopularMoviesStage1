@@ -1,12 +1,7 @@
 package com.bredeekmendes.popularmovies_stage1.utils;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.net.Uri;
-import android.preference.PreferenceManager;
-import android.support.v4.content.ContextCompat;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.bredeekmendes.popularmovies_stage1.R;
 
@@ -15,7 +10,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.io.InputStream;
-import java.net.URL;
 import java.util.Scanner;
 
 /**
